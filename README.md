@@ -1,4 +1,4 @@
-Bienvenue sur ma page
+Bienvenue !
 
 
 Je suis Juliette LING
