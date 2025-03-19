@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .column {
+            padding: 20px;
+        }
+        .column-1 {
+            width: 33.33%;
+        }
+        .column-2 {
+            width: 66.66%;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .content ul li {
+            margin-bottom: 10px;
+        }
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Bienvenue sur mon CV</h1>
+        <h1>Juliette LING</h1>
+        <p>Découvrez mon parcours professionnel et mes compétences</p>
+    </div>
+
+    <div class="container">
+        <!-- Première colonne : Langues, Compétences, Contact -->
+        <div class="column column-1">
+            <!-- Section Compétences -->
+            <div class="section">
+                <h2>Compétences</h2>
+                <div class="content">
+                    <ul>
+                        <li>Curieuse</li>
+                        <li>Persévérante</li>
+                        <li>Autonome</li>
+                        <li>Polyvalente</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Section Langues -->
+            <div class="section">
+                <h2>Langues</h2>
+                <div class="content">
+                    <ul>
+                        <li>Mandarin : C1</li>
+                        <li>Anglais : B1</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section Contact -->
+            <div class="section">
+                <h2>Contact</h2>
+                <div class="content">
+                    <!-- <p>Email : [Votre Email]</p> -->
+                    <!-- <p>Téléphone : [Votre Numéro]</p> -->
+                    <p>LinkedIn : <a href="https://www.linkedin.com/in/ljuliette/">Mon Profil LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deuxième colonne : Profil, Formation, Expérience -->
+        <div class="column column-2">
+            <!-- Section Profil -->
+            <div class="section">
+                <h2>Profil</h2>
+                <div class="content">
+                    <p>Actuellement en voie de reconversion, je souhaite m’orienter vers le domaine de la santé, plus précisément dans l’optique et l'audition. Déterminée, rigoureuse et curieuse, je souhaite rejoindre votre équipe.</p>
+                </div>
+            </div>
+
+            <!-- Section Expérience -->
+            <div class="section">
+                <h2>Expérience</h2>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <strong>Employée Polyvalente</strong> chez <a href="https://atuvue.com/histoire-furcom/">Furcom Vision</a> – Juin 2023 — Décembre 2023
+                            <p>Préparation des commandes, accueil et conseil des clients, gestion du stock et approvisionnement, maintenance et mise-à-jour du site internet, optimisation et automatisation des tâches, création de supports visuels.</p>
+                        </li>
+                        <li>
+                            <strong>Animatrice Commerciale</strong> chez <a href="https://www.galerieslafayette.com/">Galerie Lafayette</a> – Avril 2019 - Août 2019
+                            <p>Déterminer les besoins du client, proposer des consultations personnelles, encaisser les paiements, ranger et approvisionner les produits, merchandising, ouverture et fermeture du magasin.</p>
+                        </li>
+                        <li>
+                            <strong>Stagiaire Opticien (Stage de 3ème)</strong> – 20 janvier 2015 — 27 janvier 2015
+                            <p>Accueillir et déterminer les besoins du client, manipulation des machines pour le taillage de verres, gestion des commandes.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section Formation -->
+            <div class="section">
+                <h2>Formation</h2>
+                <div class="content">
+                    <ul>
+                        <li>BTS Opticien Lunetier – L’Institut d’Optique Supérieur - ISO Paris – Septembre 2024 - Juin 2026</li>
+                        <li>Mise-à-Niveau Hôtellerie Restauration – L'école Ferrandi, Campus Paris – Septembre 2022 — Juin 2023</li>
+                        <li>Master Informatique — Parcours Android – Sciences Sorbonne Université (ex-UPMC) – Septembre 2021 - Mai 2022</li>
+                        <li>Licence Double Majeure Maths-Informatique – Sciences Sorbonne Université (ex-UPMC) – Septembre 2018 - Juin 2021</li>
+                        <li>Baccalauréat S SVT, spé maths, Mention AB – Lycée Arago, Paris 75012 – 2017- 2018</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; Juliette LING - Tous droits réservés</p>
+    </div>
+
+</body>
+</html>
